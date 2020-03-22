@@ -209,18 +209,19 @@ header .overlay{
       left:20%;
       /* margin-top: 20%; */
   }
-  .heading h1{
+  .heading p{
       font-size: 2em;
       color:#C86567;
       text-transform: uppercase;
+      font-weight: bold;
   }
-  .heading h1 span{
+  .heading p span{
    
     color:#fff;
     
 }
-  .heading p{
-    font-size: 4.5em;
+  .heading h1{
+    font-size: 4em;
     text-transform: uppercase;
     line-height:1.5;
     font-weight: bold;
@@ -1747,14 +1748,14 @@ height: 100%;
 }
 .heading {
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 40%;
+  left: 5%;
 }
 .heading h1 {
   font-size: 1.5em;
 }
 .heading p {
-  font-size: 2.5em;
+  font-size: 1em;
 }
 
 .data {
@@ -1905,6 +1906,17 @@ footer .contact-info {
 @media(min-width:768px)and (max-width:991px){
   .order{
     order: 2;
+  }
+  .heading {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .heading h1 {
+    font-size: 2.5em;
+  }
+  .heading p {
+    font-size: 2em;
   }
   .parteners-details{
     text-align: center;
