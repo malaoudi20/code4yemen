@@ -566,7 +566,7 @@ header .overlay{
 .about-desc p{
     font-size: 1em;
     letter-spacing: 2;
-    line-height: 1.9;
+    line-height: 2;
     color:#f9f9f9;
     margin-bottom: 30px;
 }
@@ -1377,6 +1377,31 @@ opacity: .9;
 .story-desc p{
   color:#fff;
   line-height:2;
+  margin-bottom: 10px;
+}
+.vision{
+  background: #182035;
+  color:#fff;
+  /* padding: 100px 0; */
+}
+.vision h2{
+    color: #C86567;
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.vision .vision-line{
+  height:5px;
+  width:180px;
+  border-top: 4px dotted #C86567;
+  margin: 100px auto;
+}
+.vision p{
+  margin: 20px 0;
+  color:#eee;
+  line-height: 2;
+  font-size: 20px;
 }
 .mission{
   background: #182035;
@@ -1396,17 +1421,17 @@ opacity: .9;
   border-top: 4px dotted #C86567;
   margin: 100px auto;
 }
-.mission ol li{
+.mission p{
   margin: 20px 0;
   color:#eee;
-  line-height: 1.7;
+  line-height: 2;
+  font-size: 20px;
 }
 .mission-img{
 
-  height:100%;
-  width:100%;
-  padding-top: 90px;
-  position: relative;
+  height:200px;
+  width:200px;
+  margin: 0 auto;
   }
 
   .mission-img img{
@@ -1415,6 +1440,53 @@ opacity: .9;
     width:100%;
     display: block;
     }
+
+
+    .goals{
+      background: #182035;
+      color:#fff;
+      /* padding: 100px 0; */
+    }
+    .goals h2{
+        color: #C86567;
+        font-size: 3em;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .goals .goals-line{
+      height:5px;
+      width:180px;
+      border-top: 4px dotted #C86567;
+      margin: 100px auto;
+    }
+    .goals p{
+      margin: 20px 0;
+      color:#eee;
+      line-height: 2;
+      font-size: 20px;
+    }
+    .goals ol li{
+      margin-bottom: 10px;
+      line-height: 1.9;
+    }
+
+    .goals-img{
+
+      height:200px;
+      width:200px;
+      text-align: center;
+      margin: 0 auto;
+      /* padding-top: 90px;
+      position: relative; */
+      }
+    
+      .goals-img img{
+    
+        height:100%;
+        width:100%;
+        display: inline-block;
+        }
 .values{
   background: #182035;
   color:#fff;
