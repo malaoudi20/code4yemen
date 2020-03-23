@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" /> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" /> -->
+    
     <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"> -->
@@ -30,11 +29,11 @@
               <div class="bootstrap-wrapper">
                 <div class="container">
                   <div class="row">
-                        <div class="">
+                       
                           <div class="logo">
                             <span><img src="images/code4yemen2.png"></span>
                         </div>
-                        </div>
+                        
                  
                    
                     <!-- <div class="menu">
@@ -185,7 +184,7 @@
       </div>
 
 
-      <div class="services section">
+      <div class="services section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
               
@@ -288,7 +287,7 @@
     </div>
   </div>
 
-      <div class="progress section">
+      <div class="progress section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
         <div class="container">
           <h2>Our Largest <br>Achievements</h2>
@@ -324,7 +323,7 @@
       </div>
 
 
-      <div class="news section fp-auto-height">
+      <div class="news section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
         <div class="container">
           <h2>Latest <br>News</h2>
@@ -433,7 +432,7 @@
       </div>
 
 
-      <div class="parteners section">
+      <div class="parteners section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
          <div class="container">
            <h2>Our<br>parteners</h2>
@@ -473,7 +472,7 @@
     </div>
 
 
-      <div class="donate section">
+      <div class="donate section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
             <p>Support Yemeni youth to become the technology leaders of tomorrow</p>
@@ -529,7 +528,8 @@
     </div>
   </div>
 
-     
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
         
     <script type="text/javascript">
 
@@ -607,7 +607,7 @@
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script> -->
 <script>
 
 $(document).ready(function() {
@@ -627,13 +627,13 @@ $(document).ready(function() {
 
   new fullpage('#fullpage', {
 	//options here
-	autoScrolling:true,
+	//autoScrolling:true,
   navigation:true,
   navigationTooltips:["Home","About us","Services","Programs","Progress","News","Partener","Donate","Contact"],
   scrollingSpeed:1500,
   anchors:['home','about',"Services","Programs","Progress","News","Partener","Donate","Contact"],
-  responsiveWidth: 360,
-	responsiveHeight: 400,
+  responsiveWidth: 1100,
+	//responsiveHeight: 400,
   //verticalCentered:false,
   // scrollOverflow:true,
   // bigSectionsDestination:bottom,
@@ -642,8 +642,8 @@ $(document).ready(function() {
   // easingcss3: 'ease',
   //easingcss3: 'cubic-bezier(1.000, 0.000, 0.000, 1.005) 0.5s',
   //hybrid: true
-  //scrollBar: true,
-//	scrollHorizontally: true,
+   scrollBar: true,
+//	scrollHorizontally: false,
 onLeave: function(origin, destination, direction){
 	
 
@@ -714,7 +714,10 @@ onLeave: function(origin, destination, direction){
 
 
 		}
-    }
+    },
+    afterResponsive: function(isResponsive){
+
+}
 
 });
 

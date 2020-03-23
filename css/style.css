@@ -12,7 +12,7 @@ body{
     scroll-snap-type: y mandatory;
     overflow-y: scroll; */
      /* background: #C86567; */
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
     /* background: 16215c; */
     /* cursor: cell; */
     font-family: 'Montserrat', sans-serif;
@@ -22,9 +22,13 @@ body{
  
 } */
 
-.container{
+/* .container{
     width:1200px;
     margin:0 auto;
+} */
+
+.fp-enabled body, html.fp-enabled{
+  overflow-x: hidden !important;
 }
 a{
   text-decoration: none;
@@ -149,6 +153,7 @@ header{
 }
  .logo{
     color:#fff;
+    z-index: 2;
     /* padding-top: 20px; */
 }
  .logo span{
@@ -158,6 +163,7 @@ header{
     background: #f5f5f5;
     padding: 20px;
     border-radius: 0 0 15px 15px;
+   
    
 }
  .logo span img{
@@ -186,7 +192,7 @@ header .overlay{
     width: auto;
     min-height: 100vh;
     min-width: 100%;
-    z-index: -9;
+    /* z-index: -1; */
     /* border-bottom-right-radius: 200px; */
     background-color: #C86567;
    
