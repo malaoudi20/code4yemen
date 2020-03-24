@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
 </head>
-<body class="fp-responsive">
+<body class="">
     
   <div class="cursor"></div>
     <div id="fullpage">
@@ -297,14 +297,14 @@
             <div class="row">
               <div class="col-md-4">
              <div class="progress-details">
-               <h3><span class="">1000</span>+</h3> 
+               <h3><span class="counter">1000</span>+</h3> 
                <p>Applications</p>
              </div>
             </div>
 
             <div class="col-md-4">
              <div class="progress-details">
-              <h3><span class="">60</span>%</h3> 
+              <h3><span class="counter">60</span>%</h3> 
               <p>Female participation</p>
             </div>
             </div>
@@ -312,7 +312,7 @@
 
             <div class="col-md-4">
             <div class="progress-details">
-              <h3><span class="">85</span>%</h3> 
+              <h3><span class="counter">85</span>%</h3> 
               <p>Get Job</p>
             </div>
           </div>
@@ -612,7 +612,11 @@
 
 $(document).ready(function() {
 
-
+  $('.counter').counterUp({
+      delay: 1,
+      time: 500,
+      //triggerOnce:true
+     }); 
  
  
   var $isAnimatedSecondRight = $('.about .is-animated'),
@@ -699,25 +703,24 @@ onLeave: function(origin, destination, direction){
 		}
 	},
 
-  afterLoad:function(origin, destination, direction){
+  // afterLoad:function(origin, destination, direction){
       
       
-       if(origin.index == 3){
-     // console.log("hey");
-      $isAnimatedFifth.eq(0).addClass('counter');
-      $isAnimatedFifth.eq(1).addClass('counter');
-      $isAnimatedFifth.eq(2).addClass('counter');
-      $('.counter').counterUp({
-      delay: 1,
-      time: 500
-     }); 
+  //      if(origin.index == 3){
+  //    // console.log("hey");
+  //    // $isAnimatedFifth.eq(0).addClass('counter');
+  //    // $isAnimatedFifth.eq(1).addClass('counter');
+  //    // $isAnimatedFifth.eq(2).addClass('counter');
+  //     $('.counter').counterUp({
+  //     delay: 1,
+  //     time: 500,
+  //     triggerOnce:true
+  //    }); 
 
 
-		}
-    },
-    afterResponsive: function(isResponsive){
-
-}
+	// 	}
+  //   },
+   
 
 });
 

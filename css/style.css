@@ -1873,6 +1873,7 @@ height: 100%;
 .services-details {
    flex-direction: column;
     text-align: center;
+    margin: 50px 0;
  }
  .services .services-line {
   width: 120px;
@@ -1880,8 +1881,16 @@ height: 100%;
  .progress .progress-details{
   margin-bottom: 30px;
 }
+.programs .programs-line{
+  width: 120px;
+  margin-bottom: 50px;
+}
 .programs-details{
   text-align: center;
+  margin: 50px 0;
+}
+.programs .programs-items .second-prog {
+  margin-top: 50px;
 }
 .news-items{
   margin-bottom: 30px;
@@ -1954,6 +1963,12 @@ footer .contact-info {
 }
 .fp-enabled body, html.fp-enabled{
   /* height: initial !important; */
+}
+.about{
+  padding-bottom: 100px;
+}
+.services ,.programs ,.progress, .news ,.parteners ,.donate{
+  padding: 100px 0;
 }
 }
  @media(min-width:577px)and (max-width:767px){
