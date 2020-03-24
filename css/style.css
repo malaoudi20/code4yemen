@@ -1888,7 +1888,7 @@ height: 100%;
   bottom: 35px;
   opacity: .9;
 }
-.animated-arrow > .main > .text {
+.about .animated-arrow > .main > .text {
   margin-bottom: 30px;
   font-size: 16px;
  
@@ -2065,7 +2065,51 @@ footer .contact-info {
   }
   .programs-details{
     text-align: center;
+    margin: 50px 0;
   }
+  .programs .programs-items .programs-details h4 {
+   
+    width: 48%;
+    margin: 0 auto;
+}
+.programs-number span {
+ 
+  text-align: center;
+}
+  
+  .programs .programs-line{
+    width: 120px;
+    margin-bottom: 100px;
+  }
+  .services .services-line {
+    width: 120px;
+   }
+   .programs .programs-items .second-prog {
+    margin-top: 50px;
+  }
+  .services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback{
+    padding: 100px 0;
+  }
+  .about .animated-arrow > .main > .text {
+    margin-bottom: 30px;
+    font-size: 16px;
+   
+  }
+  #about_img {
+    margin: 0 auto;
+}
+.feedback .student {
+  flex-direction: column;
+}
+.feedback .student .std-img{
+  width:60%;
+  margin: 0 auto;
+ 
+}
+.std-details{
+  transform: translateY(0);
+  margin: 30px 0;
+}
   }
 
   @media(min-width:992px)and (max-width:1199px){
