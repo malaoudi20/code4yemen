@@ -919,7 +919,8 @@ header .overlay{
 .programs{
   background: #182035;
   color:#fff;
-  height:700px !important;
+  /* height:700px !important; */
+  background-image: url(../images/ttt.png);
   /* padding: 50px 0; */
 }
 .programs h2{
@@ -932,11 +933,11 @@ header .overlay{
   letter-spacing: 2px;
 }
 .programs .programs-line{
-  height:5px;
+  /* height:5px;
   width:180px;
   transform: rotate(90deg);
   border-top: 4px dotted #C86567;
-  margin: 100px  auto 20px auto;
+  margin: 100px  auto 20px auto; */
 }
 .programs .programs-items{
   /* display: flex;
@@ -944,8 +945,15 @@ header .overlay{
 }
 .programs .programs-items .programs-details .programs-img{
       /* transform: scaleX(0); */
-      transform-origin: left;
-      overflow: hidden;
+      /* transform-origin: left;*/
+      /* overflow: hidden;  */
+      height:250px;
+      width:100%;
+}
+.programs .programs-items .programs-details .programs-img img{
+  height:100%;
+  width:100%;
+  display: block;
 }
 .programs .programs-items .second-prog{
     margin-top: 300px;
@@ -1349,7 +1357,7 @@ height:100%;
 width:100%;
 display: block;
 /* box-shadow: 0 48px 48px -32px rgba(7, 6, 26, 0.2), 0 96px 96px -64px rgba(8, 6, 27, 0.4); */
-z-index: 2;
+z-index: 1;
 box-shadow:0 0 15px rgb(80, 66, 66);
 }
 
@@ -1637,7 +1645,7 @@ height:100%;
 width:100%;
 display: block;
 box-shadow: 0 48px 48px -32px rgba(7, 6, 26, 0.2), 0 96px 96px -64px rgba(8, 6, 27, 0.4);
-z-index: 2;
+z-index: 1;
 }
 
 .about-program-title #about-program_img::before{
