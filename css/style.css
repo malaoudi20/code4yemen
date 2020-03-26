@@ -1767,9 +1767,9 @@ opacity: .9;
   
 }
 .feedback .student .std-img{
-  width: 500px;
+  /* width: 500px; */
   height: 100%;
-  flex-basis: 70%;
+  flex-basis: 30%;
   
 }
 
@@ -1796,13 +1796,24 @@ opacity: .9;
   align-content: center;
   /* flex-basis: 100px; */
   transform:translateY(50%) ;
+  flex-basis: 60%;
+}
+.more .std-details{
+  
+  transform:translateY(30%) ;
+  
+}
+.feedback .more:nth-child(5) .std-img{
+  
+  flex-basis: 50%;
+  
 }
 .std-details h5{
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 .std-details p{
-  line-height: 1.5em;
+  line-height: 1.6em;
   
 }
 .owl-nav {
