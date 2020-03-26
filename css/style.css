@@ -775,6 +775,8 @@ header .overlay{
 }
 .services_intro {
   padding-top: 15px;
+  flex-basis: 70%;
+
 }
 /* .services .services-items .object:nth-of-type(2){
   margin-top: 200px;
@@ -865,6 +867,7 @@ header .overlay{
 .services_intro-text{
   color:#fff;
   margin-left: 10px;
+  line-height: 1.7;
 }
 .arrow-container{
   position: relative;
