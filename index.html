@@ -542,7 +542,8 @@
            y: 10,
            x:8,
            rotation: 45,
-           ease: Expo.easeInOut
+           ease: Expo.easeInOut,
+          
       });
       t1.to(".two", 0.8, {
            y:5,
@@ -682,18 +683,18 @@ onLeave: function(origin, destination, direction){
       
         //$isAnimatedThirdSingle.addClass('animated bounceInDown').css('animation-delay', '1.2s');
     }
-    else if(origin.index == 4){
+    // else if(origin.index == 4){
      
-        $isAnimatedSixth.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s' ,'animation-duration':'2s'}); 
-        $isAnimatedSixth.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s' ,'animation-duration':'2s'});
-        $isAnimatedSixth.eq(2).addClass('animated fadeInUp').css({'animation-delay': '2s','animation-duration':'2s'});
+    //     $isAnimatedSixth.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s' ,'animation-duration':'2s'}); 
+    //     $isAnimatedSixth.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s' ,'animation-duration':'2s'});
+    //     $isAnimatedSixth.eq(2).addClass('animated fadeInUp').css({'animation-delay': '2s','animation-duration':'2s'});
       
      
 
 
-		}
+		// }
 
-    else if(origin.index == 5){
+    else if(origin.index == 4){
       
         $isAnimatedSeventh.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
         $isAnimatedSeventh.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
