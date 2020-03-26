@@ -933,11 +933,11 @@ header .overlay{
   letter-spacing: 2px;
 }
 .programs .programs-line{
-  /* height:5px;
+  height:5px;
   width:180px;
   transform: rotate(90deg);
   border-top: 4px dotted #C86567;
-  margin: 100px  auto 20px auto; */
+  margin: 100px  auto 20px auto;
 }
 .programs .programs-items{
   /* display: flex;
