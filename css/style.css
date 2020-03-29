@@ -935,9 +935,9 @@ header .overlay{
 .programs .programs-line{
   height:5px;
   width:180px;
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   border-top: 4px dotted #C86567;
-  margin: 100px  auto 20px auto;
+  margin: 20px  auto 20px auto;
 }
 .programs .programs-items{
   /* display: flex;
@@ -947,13 +947,14 @@ header .overlay{
       /* transform: scaleX(0); */
       /* transform-origin: left;*/
       /* overflow: hidden;  */
-      height:250px;
+      height:300px;
       width:100%;
 }
 .programs .programs-items .programs-details .programs-img img{
   height:100%;
   width:100%;
   display: block;
+  border-radius: 10px;
 }
 .programs .programs-items .second-prog{
     margin-top: 300px;
