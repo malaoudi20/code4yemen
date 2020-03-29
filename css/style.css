@@ -99,6 +99,17 @@ span.three {
   left:15px;
 }
 
+.toggle-btn:hover span.unhover
+
+{
+  left:20px;
+}
+.toggle-btn:hover span.unhover2
+
+{
+  left:5px;
+}
+
 
 .menu {
   z-index: 2;
