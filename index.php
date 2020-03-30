@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -490,19 +496,23 @@
        
         
       </div>
-      <?php
-      if (isset($_POST["from"])){
-      $to      = 'info@code4yemen.org';
-      $from    = $_POST["sender"];
-      $subject = $_POST["subject"];
-      $message = $_POST["message"];
-      $headers = 'From:'.$from . "\r\n" .
-          'X-Mailer: PHP/' . phpversion();
+     <?php 
+     $m="";
+     if ($_SERVER["REQUEST_METHOD"] == "POST"){
+       $to      = 'info@code4yemen.org';
+       $from    = $_POST["sender"];
+       $subject = $_POST["subject"];
+       $message = $_POST["message"];
+       $headers = 'From:'.$from . "\r\n" .
+           'X-Mailer: PHP/' . phpversion();
+       
+       mail($to, $subject, $message, $headers);
+       // echo "Thank you for sending us an email";
+     
+       $m = "Thank you for sending us an email";
+      }
       
-      mail($to, $subject, $message, $headers);
-      echo "Thank you for sending us an email";
-    }
-      ?> 
+     ?>
       <div class="contact section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
@@ -518,7 +528,7 @@
               </div>
               <div class="col-lg-6">
                 <div class="contact-form">
-                  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+                  <form method="POST" action="<?php echo $_SERVER["PHP_SELF"];?>">
                     
                         <input type="text" name="subject" placeholder="Subject" required>
                       
@@ -526,9 +536,11 @@
                      
                    
                     <textarea name="message" placeholder="Message *" required></textarea>
-                    <input type="submit"value="SEND MESSAGE"/>
-
+                   
+                    <input type="submit" value="SEND MESSAGE"/>
+                   
                   </form>
+                  <?php echo $m;?>
                 </div>
               </div>
              
@@ -536,6 +548,9 @@
         
         </div>
       </div>
+      <?php
+      
+      ?> 
       </div>
         <div class=" footer section fp-auto-height">
       <footer>
