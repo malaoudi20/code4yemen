@@ -37,7 +37,7 @@
                 <div class="container">
                   <div class="row">
                        
-                          <a  href="index.html" class="logo">
+                          <a  href="index.php" class="logo">
                             <span><img src="images/code4yemen.png"></span>
                           </a>
                         
@@ -157,7 +157,7 @@
   
                     <ul class="is-animated">
                         <li>
-                          <a class='animated-arrow' href='about.html'>
+                          <a class='animated-arrow' href='about.php'>
                             <span class='the-arrow -left'>
                               <span class='shaft'></span>
                             </span>
@@ -260,7 +260,7 @@
 
             <div class="col-lg-5">
             <div class="programs-details is-animated">
-              <h4><a href="programs.html">Front-End <br>Bootcamp</a> </h4>
+              <h4><a href="programs.php">Front-End <br>Bootcamp</a> </h4>
               <div class="programs-number"><span>01</span></div>
               <div class="programs-img">
                 <img src="images/front-end-web-development.jpg">
@@ -288,7 +288,7 @@
               
               <div class="programs-img">
                 <img src="images/android.jpeg">
-                <h4><a href="programs.html">Android <br>Bootcamp</a> </h4>
+                <h4><a href="programs.php">Android <br>Bootcamp</a> </h4>
               <div class="programs-number"><span>02</span></div>
                 <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
               </div>
