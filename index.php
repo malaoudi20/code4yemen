@@ -581,7 +581,7 @@
            <div class="col-md-4">
             <div class="contact-info">
               <i class="fa fa-envelope-open-text"></i>
-              <p>Code4Yemen@info.org</p>
+              <p>info@code4yemen.org</p>
             </div>
          </div>
           </div>
