@@ -1292,7 +1292,12 @@ transition: all .5s ease-in-out;
   color:#eee;
   font-weight: bold;
 }
-
+.success{
+  background-color: #C86567;
+  color:#fff;
+  padding: 10px;
+  margin-top: 10px;
+}
 .footer{
   /* height:100vh; */
 }

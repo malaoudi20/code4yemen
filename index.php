@@ -497,20 +497,26 @@
         
       </div>
      <?php 
-     $m="";
-     if ($_SERVER["REQUEST_METHOD"] == "POST"){
-       $to      = 'info@code4yemen.org';
-       $from    = $_POST["sender"];
-       $subject = $_POST["subject"];
-       $message = $_POST["message"];
-       $headers = 'From:'.$from . "\r\n" .
-           'X-Mailer: PHP/' . phpversion();
-       
-       mail($to, $subject, $message, $headers);
-       // echo "Thank you for sending us an email";
      
-       $m = "Thank you for sending us an email";
-      }
+    //  $m="";
+    //  if ($_SERVER["REQUEST_METHOD"] == "POST"){
+    //    $to      = 'info@code4yemen.org';
+    //    $from    = filter_var($_POST["sender"], FILTER_SANITIZE_STRING);
+    //    $subject = filter_var( $_POST["subject"], FILTER_SANITIZE_STRING);
+    //    $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+    //    $headers = 'From:'.$from . "\r\n" .
+    //        'X-Mailer: PHP/' . phpversion();
+       
+    //    mail($to, $subject, $message, $headers);
+      
+      
+       //$reloadpage = $_SERVER['PHP_SELF']."#Contact";
+        // header("http://localhost/code4yemen/index.php#Contact");
+        // exit();
+      //   wp_redirect($_SERVER['HTTP_REFERER']);
+      //  $m = "<p style='color:#fff'>Thank you for sending us an email</p>";
+       //echo "<script type='text/javascript'> document.location = 'http://localhost/code4yemen/index.php#Contact'; </script>";
+      //}
       
      ?>
       <div class="contact section fp-auto-height-responsive">
@@ -528,19 +534,19 @@
               </div>
               <div class="col-lg-6">
                 <div class="contact-form">
-                  <form method="POST" action="<?php echo $_SERVER["PHP_SELF"];?>">
+                  <form method="POST"  id="myfrom">
                     
-                        <input type="text" name="subject" placeholder="Subject" required>
+                        <input type="text" name="subject"id="subject" placeholder="Subject" required>
                       
-                      <input type="email" name="sender" placeholder="ُEmail Address *" required>
+                      <input type="email" name="sender" id="sender" placeholder="ُEmail Address *" required>
                      
                    
-                    <textarea name="message" placeholder="Message *" required></textarea>
+                    <textarea name="message" id="message" placeholder="Message *" required></textarea>
                    
-                    <input type="submit" value="SEND MESSAGE"/>
+                    <input  type="submit" value="SEND MESSAGE" />
                    
                   </form>
-                  <?php echo $m;?>
+                  <div id="mail-status"></div>
                 </div>
               </div>
              
@@ -688,7 +694,27 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script> -->
 <script>
 
+
+
 $(document).ready(function() {
+  $('#myfrom').on("submit", function(event){  
+    event.preventDefault();
+    
+    var sender=$('#sender').val();
+    var subject=$('#subject').val();
+    var message=$('#message').val();
+    //console.log(message);
+   
+         $.ajax({  
+              url:"sending_mail.php",  
+              method:"POST",  
+              data:'sender=' + sender+'&subject='+ subject+'&message=' + message,  
+              success:function(data){   
+                   $(' #mail-status').html(data);  
+              }  
+         });  
+    
+}); 
 
   $('.counter').counterUp({
       delay: 1,
@@ -801,6 +827,7 @@ onLeave: function(origin, destination, direction){
    
 
 });
+
 
 
 });
