@@ -34,7 +34,7 @@
                 <div class="container">
                   <div class="row">
                        
-                          <a  href="index.php" class="logo">
+                          <a  href="ar.php" class="logo">
                             <span><img src="images/code4yemen.png"></span>
                           </a>
                         
@@ -155,7 +155,7 @@
   
                     <ul class="is-animated">
                         <li>
-                          <a class='animated-arrow' href='about.php'>
+                          <a class='animated-arrow' href='about_ar.php'>
                             <span class='the-arrow -left'>
                               <span class='shaft'></span>
                             </span>

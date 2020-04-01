@@ -1455,7 +1455,7 @@ width: 150px;
 height: 150px;
 border-radius: 2000px;
 background:rgb(197, 114, 114) ;
-left: 310px;
+right: 310px;
 bottom: -50px;
 opacity: .9;
 }
@@ -1468,7 +1468,7 @@ width: 300px;
 height: 300px;
 border-radius: 2000px;
 border:35px solid rgb(197, 114, 114) ;
-right: 300px;
+left: 300px;
 top: 0;
 opacity: .9;
 }
@@ -1479,7 +1479,7 @@ opacity: .9;
 }
 .story-desc h2{
   font-size: 3em;
-  letter-spacing: 2px;
+  
   line-height: 1.5;
   color:#C86567;
   margin-bottom: 30px;
