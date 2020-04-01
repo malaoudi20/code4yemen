@@ -444,7 +444,7 @@
       </div> -->
 
 
-      <div class="parteners section fp-auto-height-responsive">
+      <!-- <div class="parteners section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
          <div class="container">
            <h2>Our<br>parteners</h2>
@@ -481,7 +481,7 @@
           </div>
          </div>
       </div>
-    </div>
+    </div> -->
 
 
       <div class="donate section fp-auto-height-responsive">
@@ -737,9 +737,9 @@ $(document).ready(function() {
 	//autoScrolling:true,
     navigationPosition: 'left',
   navigation:true,
-  navigationTooltips:["Home","About us","Services","Programs","Impact","Partener","Donate","Contact"],
+  navigationTooltips:["Home","About us","Services","Programs","Impact","Donate","Contact"],
   scrollingSpeed:1500,
-  anchors:['home','about',"Services","Programs","Impact","Partener","Donate","Contact"],
+  anchors:['home','about',"Services","Programs","Impact","Donate","Contact"],
   responsiveWidth: 1100,
 	//responsiveHeight: 400,
   //verticalCentered:false,
@@ -806,7 +806,7 @@ onLeave: function(origin, destination, direction){
 
 		}
 
-    else if(origin.index == 6){
+    else if(origin.index == 5){
       
       $isAnimatedEighth.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
       $isAnimatedEighth.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
