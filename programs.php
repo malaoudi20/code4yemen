@@ -51,11 +51,11 @@
       <div class="data">
            <ul>
                 <li>Code4Yemen</li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#Services">Services</a></li>
-                <li><a href="index.html#Programs">Programs</a></li>
-                <li><a href="index.html#Contact">Contact</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#about">About</a></li>
+                <li><a href="index.php#Services">Services</a></li>
+                <li><a href="index.php#Programs">Programs</a></li>
+                <li><a href="index.php#Contact">Contact</a></li>
            </ul>
           </div>
       </div>
