@@ -319,7 +319,7 @@
             </ul>
           </div>
           <div class="divider"></div>
-          <p class="copyright">All Copyrights reserved &copy; 2020</p>
+          <p class="copyright">جميع الحقوق محفوظة&copy; 2020</p>
         </div>
         <img src="images/wave.svg"/>
       </footer>
