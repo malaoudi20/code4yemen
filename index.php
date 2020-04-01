@@ -70,6 +70,7 @@
                         <li><a href="#Services">Services</a></li>
                         <li><a href="#Programs">Programs</a></li>
                         <li><a href="#Contact">Contact</a></li>
+                        <li><a href="ar.php">العربية</a></li>
                    </ul>
                   </div>
               </div>
@@ -525,7 +526,7 @@
             
             <div class="row">
               <div class="col-lg-6">
-                <div class="contact-title">
+                <div class="contact-title is-animated">
                   <h2>Get In Touch</h2>
                   <div class="contact-line"></div>
                   <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
@@ -533,7 +534,7 @@
                
               </div>
               <div class="col-lg-6">
-                <div class="contact-form">
+                <div class="contact-form is-animated">
                   <form method="POST"  id="myfrom">
                     
                         <input type="text" name="subject"id="subject" placeholder="Subject" required>
@@ -731,6 +732,7 @@ $(document).ready(function() {
       $isAnimatedFifth = $('.progress h3 span'),
       $isAnimatedSixth = $('.news .news-details'),
       $isAnimatedSeventh = $('.parteners .parteners-details');
+      $isAnimatedEighth = $('.contact .is-animated');
      
 
   new fullpage('#fullpage', {
@@ -805,6 +807,17 @@ onLeave: function(origin, destination, direction){
 
 
 		}
+
+    else if(origin.index == 6){
+      
+      $isAnimatedEighth.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
+      $isAnimatedEighth.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
+     
+    
+   
+
+
+  }
 	},
 
   // afterLoad:function(origin, destination, direction){
