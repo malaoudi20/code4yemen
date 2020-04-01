@@ -2,17 +2,17 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
-    <meta name="description" content="Next Million Coders">
+    <meta name="description" content="تدريب مليون مبرمج">
     <title>Code4Yemen</title>
     
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rtl.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" /> -->
     
     <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
@@ -21,7 +21,7 @@
     <link href="css/cssanimation.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap" rel="stylesheet">
 </head>
 <body class="">
     
@@ -62,12 +62,12 @@
               <div class="data">
                    <ul>
                         <li>Code4Yemen</li>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#Programs">Programs</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                        <li><a href="ar.php">العربية</a></li>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">عنا</a></li>
+                        <li><a href="#Services">خدماتنا</a></li>
+                        <li><a href="#Programs">برامجنا</a></li>
+                        <li><a href="#Contact">تواصل معنا</a></li>
+                        <li><a href="index.php">English</a></li>
                    </ul>
                   </div>
               </div>
@@ -83,8 +83,8 @@
                         <div class="overlay">
                             <div class="heading">
                                 <div class="container">
-                                    <h1>Training The Next<br> Million Coders</h1>
-                                    <p>To Join the digital economy </p>
+                                    <h1>تدريب مليون مبرمج</h1>
+                                    <p>للانضمام إلى الاقتصاد الرقمي </p>
                                     <a href="https://www.re-coded.com/" target="_blank">A Re:coded Initiative</a>
                                 </div>
                                 
@@ -148,7 +148,7 @@
               <div class="col-lg-6 col-sm-12">
                <div class="about-desc ">
                 
-                    <h2 class="is-animated"><span>About</span> US</h2>
+                    <h2 class="is-animated">عنا</h2>
                     <p class="is-animated">Code4Yemen Foundation is a non-profit organization, registered and licensed by the Ministry of Social Affairs and Labor, with the purpose to teach & train the youth with world class digital skills to become software developers and tech leaders.
                     </p>
                     <!-- <a href="#"><span>Read More about us</span></a> -->
@@ -161,7 +161,7 @@
                             </span>
                             <span class='main'>
                               <span class='text'>
-                                Read More about us
+                                قراءة المزيد عنا
                               </span>
                               <span class='the-arrow -right'>
                                 <span class='shaft'></span>
@@ -197,7 +197,7 @@
                 <div class="row">
                   <div class="col-lg-5">
                 <div class="services-desc ">
-                  <h2>Our<br> Services</h2>
+                  <h2>خدماتنا</h2>
                   <div class="services-line"></div>
                 </div>
               </div> 
@@ -251,7 +251,7 @@
       <div class="programs section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
         <div class="container">
-          <h2>Our<br> programs</h2>
+          <h2>برامجنا</h2>
           <div class="programs-line"></div>
           <div class="programs-items">
             <div class="row">
@@ -302,7 +302,7 @@
       <div class="progress section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
         <div class="container">
-          <h2>Our<br>Impact</h2>
+          <h2>انجازاتنا</h2>
           <div class="progress-line"></div>
            <div class="progress-items">
 
@@ -487,8 +487,8 @@
       <div class="donate section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
-            <p>Support Yemeni youth to become the technology leaders of tomorrow</p>
-            <a href="#" class="main-btn">Donate</a>
+            <p>ادعم الشباب اليمني  ليصبحوا قادة المستقبل في المجال التقني</p>
+            <a href="#" class="main-btn">تبرع</a>
           </div>
         </div>
        
@@ -524,7 +524,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <div class="contact-title is-animated">
-                  <h2>Get In Touch</h2>
+                  <h2>تواصل معنا</h2>
                   <div class="contact-line"></div>
                   <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
                 </div>
@@ -534,14 +534,14 @@
                 <div class="contact-form is-animated">
                   <form method="POST"  id="myfrom">
                     
-                        <input type="text" name="subject"id="subject" placeholder="Subject *" required>
+                        <input type="text" name="subject"id="subject" placeholder="الموضوع *" required>
                       
-                      <input type="email" name="sender" id="sender" placeholder="ُEmail Address *" required>
+                      <input type="email" name="sender" id="sender" placeholder="ُالبريد الالكتروني *" required>
                      
                    
-                    <textarea name="message" id="message" placeholder="Message *" required></textarea>
+                    <textarea name="message" id="message" placeholder="الرسالة *" required></textarea>
                    
-                    <input  type="submit" value="SEND MESSAGE" />
+                    <input  type="submit" value="إرسال" />
                    
                   </form>
                   <div id="mail-status"></div>
@@ -565,14 +565,14 @@
             <div class="col-md-4">
                <div class="contact-info">
                  <i class="fa fa-map-marker-alt"></i>
-                 <p>Yemen Sana'a</p>
+                 <p>اليمن - صنعاء</p>
                </div>
             </div>
 
             <div class="col-md-4">
               <div class="contact-info">
                 <i class="fa fa-phone-alt"></i>
-                <p>967-415123</p>
+                <p>967-573 062</p>
               </div>
            </div>
 
@@ -594,7 +594,7 @@
             </ul>
           </div>
           <div class="divider"></div>
-          <p class="copyright">All Copyrights reserved &copy; 2020</p>
+          <p class="copyright">جميع الحقوق محفوظة &copy; 2020</p>
         </div>
       </div>
         <img src="images/wave.svg"/>
@@ -735,6 +735,7 @@ $(document).ready(function() {
   new fullpage('#fullpage', {
 	//options here
 	//autoScrolling:true,
+    navigationPosition: 'left',
   navigation:true,
   navigationTooltips:["Home","About us","Services","Programs","Impact","Partener","Donate","Contact"],
   scrollingSpeed:1500,

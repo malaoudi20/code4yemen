@@ -6,7 +6,7 @@
 
 body{
     background-color: aliceblue;
-    font-family: Playfair,Verdana, Geneva, Tahoma, sans-serif;
+    
     
     /* height:5000px;
     scroll-snap-type: y mandatory;
@@ -15,7 +15,8 @@ body{
      /* overflow-x: hidden; */
     /* background: 16215c; */
     /* cursor: cell; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cairo', sans-serif;;
+    text-align: right;
 }
 /* header,.about,.services,.programs,.progress,.news,.parteners,.donate,footer{
   scroll-snap-align: start;
@@ -48,7 +49,7 @@ nav{
   width: 70px;
   height:50px;
   top:0;
-  right: 0;
+  left: 0;
   z-index: 3;
   /* text-align: center;
   line-height: 60px; */
@@ -122,7 +123,7 @@ span.three {
 }
 
 .data {
-  padding: 8em 0 0 2em;
+  padding: 5em 0 0 2em;
   text-align: center;
 }
 
@@ -139,8 +140,8 @@ ul {
 
 .menu li:not(:first-child) {
   color: #fff;
-  font-size: 42px;
-  padding: 20px 0;
+  font-size: 35px;
+  padding: 15px 0;
 }
 
 
@@ -195,7 +196,7 @@ header .overlay{
     z-index:2;
     color:#fff;
     border-bottom: 10px solid #C86567;
-    border-bottom-right-radius: 210px;
+    border-bottom-left-radius: 210px;
     /* background-color: #000000; */
 
 }
@@ -226,13 +227,13 @@ header .overlay{
     height:100%;
     max-height: 100%;
     object-fit: cover;
-    border-bottom-right-radius: 212px;
+    border-bottom-left-radius: 212px;
    
   }
   .heading{
       position: absolute;
       top:30%;
-      left:20%;
+      right:20%;
       /* margin-top: 20%; */
   }
   .heading p{
@@ -268,7 +269,7 @@ header .overlay{
     margin-top: 90vh;
     position: absolute;
     bottom:10px;
-    left:50%;
+    right:50%;
     cursor: pointer;
     z-index: 5;
 }
@@ -285,7 +286,7 @@ header .overlay{
    
   border-right: 2px solid white;
   border-bottom: 2px solid white;
-  margin: 0 0 3px 4px;
+  margin: 0 4px 3px 0;
   
   width: 16px;
   height: 16px;
@@ -534,7 +535,7 @@ header .overlay{
   height: 150px;
   border-radius: 2000px;
   background:rgb(197, 114, 114) ;
-  left: 350px;
+  right: 350px;
   bottom: -50px;
   opacity: .9;
 }
@@ -547,7 +548,7 @@ header .overlay{
   height: 300px;
   border-radius: 2000px;
   border:35px solid rgb(197, 114, 114) ;
-  right: 300px;
+  left: 300px;
   bottom: 200px;
   opacity: .9;
 }
@@ -571,7 +572,7 @@ header .overlay{
 }
 .about-desc h2{
     font-size: 3em;
-    letter-spacing: 2px;
+    
     line-height: 1.5;
     color:#C86567;
     margin-bottom: 30px;
@@ -613,7 +614,7 @@ header .overlay{
 .the-arrow.-left {
   position: absolute;
   top: 60%;
-  left: 0;
+  right: 0;
 }
 .the-arrow.-left > .shaft {
   width: 0;
@@ -672,19 +673,19 @@ header .overlay{
   height: 1px;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-transition-delay: 0;
           transition-delay: 0;
 }
 .the-arrow > .shaft:before {
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
 }
 .the-arrow > .shaft:after {
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
 }
 
 .animated-arrow {
@@ -721,13 +722,13 @@ header .overlay{
           transform: rotate(-40deg);
 }
 .animated-arrow:hover > .main {
-  -webkit-transform: translateX(80px);
-          transform: translateX(80px);
+  -webkit-transform: translateX(-80px);
+          transform: translateX(-80px);
 }
 .animated-arrow:hover > .main > .the-arrow.-right > .shaft {
   width: 0;
-  -webkit-transform: translateX(200%);
-          transform: translateX(200%);
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
   -webkit-transition-delay: 0;
           transition-delay: 0;
 }
@@ -755,7 +756,7 @@ header .overlay{
   transition: all 0.2s;
 }
 .animated-arrow > .main > .text {
-  margin: 0 16px 0 0;
+  margin: 0 0 0 16px;
   line-height: 1;
 }
 .animated-arrow > .main > .the-arrow {
@@ -945,7 +946,6 @@ header .overlay{
   text-transform: uppercase;
   text-align: center;
   line-height: 1.7;
-  letter-spacing: 2px;
 }
 .programs .programs-line{
   height:5px;
@@ -1019,7 +1019,7 @@ header .overlay{
   text-transform: uppercase;
   text-align: center;
   line-height: 1.7;
-  letter-spacing: 2px;
+ 
 }
 .progress .progress-line{
   height:5px;
@@ -1248,7 +1248,7 @@ transition: all .5s ease-in-out;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.5;
-  letter-spacing: 2px;
+  
 }
 .contact .contact-line{
   height:5px;
@@ -1310,7 +1310,7 @@ footer{
   background: #182035;
   color:#fff;
   text-align: center;
-  /* margin: 50px 0 0 0; */
+  /* padding-top: 50px; */
   position: relative;
  
 }
@@ -1363,7 +1363,7 @@ footer .copyright{
   color:#eee;
 }
 footer img{
-  display: block;
+ display: block;
 }
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
   background: #C86567 !important;
