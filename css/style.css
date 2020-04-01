@@ -1292,6 +1292,11 @@ transition: all .5s ease-in-out;
   color:#eee;
   font-weight: bold;
 }
+.contact .contact-form input[type="submit"]:hover{
+ 
+  background-color: rgba(200, 101, 103, 0.884);
+ 
+}
 .success{
   background-color: #C86567;
   color:#fff;
