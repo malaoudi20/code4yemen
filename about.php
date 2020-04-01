@@ -59,6 +59,7 @@
                 <li><a href="index.php#Services">Services</a></li>
                 <li><a href="index.php#Programs">Programs</a></li>
                 <li><a href="index.php#Contact">Contact</a></li>
+                <li><a href="ar.php">العربية</a></li>
            </ul>
           </div>
       </div>
