@@ -2119,6 +2119,9 @@ footer .contact-info {
   transform: translateY(0);
   margin: 30px 0;
 }
+.contact .contact-title p {
+ margin-bottom: 30px;
+}
 }
  @media(min-width:577px)and (max-width:767px){
   #fp-nav.fp-right {
@@ -2147,6 +2150,9 @@ footer .contact-info {
 .programs-details{
   text-align: center;
 }
+.contact .contact-title p {
+  margin-bottom: 30px;
+ }
 }
 
 @media(min-width:768px)and (max-width:991px){
@@ -2218,6 +2224,14 @@ footer .contact-info {
 .std-details{
   transform: translateY(0);
   margin: 30px 0;
+}
+.contact .contact-title p {
+  margin-bottom: 30px;
+ }
+ footer .contact-info p {
+ 
+  font-size: 16px;
+ 
 }
   }
 
