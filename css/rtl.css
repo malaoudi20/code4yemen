@@ -511,8 +511,8 @@ header .overlay{
 }
 #about_img{
 
-  height:500px;
-  width:500px;
+  height:100%;
+  width:100%;
   padding-top: 90px;
   position: relative;
 }
