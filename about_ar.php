@@ -364,6 +364,8 @@
       t1.reverse();
       $(document).on("click", ".toggle-btn", function() {
            t1.reversed(!t1.reversed());
+           $(".one").toggleClass("unhover");
+           $(".two").toggleClass("unhover2");
       });
       $(document).on("click", ".menu ul li a", function() {
            t1.reversed(!t1.reversed());
