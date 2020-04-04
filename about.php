@@ -252,7 +252,7 @@
                           <div class="contact-title">
                             <h2>Get In Touch</h2>
                             <div class="contact-line"></div>
-                            <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
+                            <p>Please fill out the form and we will  <br>get in touch as soon as possible.</p>
                           </div>
                          
                         </div>
