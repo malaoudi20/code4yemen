@@ -90,7 +90,7 @@
                     <div class="about-program-desc ">
                     
                       <h2>Front-end<br> Bootcamp</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium asperiores expedita consequuntur unde dolorum reiciendis quibusdam quos blanditiis quae, ad aperiam aspernatur fugit consectetur ullam porro a totam saepe harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident incidunt distinctio iure vero natus necessitatibus ut qui quo, eum, voluptates eveniet porro harum. Sapiente quod soluta beatae consectetur quaerat!
+                      <p>Re:coded Intensive coding bootcamp prepares participants with training and support to enter the work force as software developers. We offer students access to a world-class curriculum from Flatiron School and the opportunity to learn HTML, CSS, Javascript and React. Using our rigorous, modern curriculum, we will enable you to quickly think and build like a seasoned developer. Our grads are able to quickly and easily adapt to any development environment.
                       </p>
                       <!-- <a href="#"><span>Read More about us</span></a> -->
     
