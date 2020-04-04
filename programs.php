@@ -125,7 +125,7 @@
               <div class="feedback section">
                   <div class="bootstrap-wrapper">
                       <div class="container">
-                          <h2>What the Students said about Bootcamp</h2>
+                          <h2>Testimonies From Our Students</h2>
                           <div class="owl-carousel">
                             <div class="student">
                                 <div class="std-img">
