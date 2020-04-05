@@ -105,14 +105,12 @@
                   <div class="story-desc ">
                   
                     <h2>قصتنا</h2>
-                    <p>Code4Yemen initiative started after the war in Yemen had destroyed the local economy and left thousands of educated young men and women with no jobs or hopes for a better future.
+                    <p>بدأت مبادرة كود فور يمن بعد أن دمرت الحرب على اليمن الاقتصاد المحلي وتركت الآلاف من الشباب والشابات اليمنين المتعلمين بلا وظائف وبلا أمل لمستقبل أفضل. بدأت ريكوديد مبادرة كود فور يمن في مايو عام ٢۰١٧، عند التقى محمد العودي مع مارسيلو والكساندرا (مؤسسي ريكوديد) في شركة فيسبوك في مينلو بارك، كاليفورنيا. تواصل معهم محمد وذلك من خلال ما رأى من أعمال ريكوديد في العراق وتركيا. كان السؤال المطروح حينئذ هو " كيف يمكننا نقل برنامج البرمجة الخاص بكم إلى اليمن؟ " والذي كان بمثابة الخطوة الأولى لبدء المشروع في مساء ذلك اليوم من الربيع في مقر شركة فيسبوك. وتبع ذلك الاجتماع وعد بإجراء خطوة عملية في اليمن من خلال برنامج صغير لاختبار الأجواء. بعد ذلك بشهر، فتحنا باب القبول للتقدم لمخيم التدريب الخاص بتطوير الواجهة الأمامية للويب في صنعاء، أكثر من ٢۰۰ فرد قاموا بالتقدم للبرنامج وقمنا باختيار خمسة فتيات وثلاث شبان للانضمام إلى مخيم التدريب الأول من نوعه للبرمجة في اليمن. 
                     </p>
                     <p>
-                      Re-coded started Code4Yemen initiative in May 2017, when Mohamed Alaoudi met with Marcello and Alexandra (Re:Coded Co-Founders) at Facebook in Menlo Park, California. Mohamed had connected with them because of Re:Coded’s work in Iraq and Turkey. ‘How might we take your coding programs to Yemen?’ was the question that brought everything together that spring afternoon at Facebook HQ. What followed was a promise to start a movement in Yemen with a small program to test the waters. A month later, we opened applications for our Front-End Web Development Bootcamp in Sana’a More than 200 people applied for the program and we selected five women and three men to join the first-ever coding Bootcamp in Yemen.
+                    خلال هذه الرحلة، تعرف مارسيلو من خلال المراسلات الإلكترونية على ماهر العاقل، مطور أنظمة من صنعاء والذي سبق لمحمد تقديمة كمدرب متطوع لمخيم التدريب الخاص بريكوديد. في صنعاء، اكتمل برنامج التدريب الصغير وحصل جميع الخريجين الأربعة – رجلين وفتاتين- على فرص عمل فور تخرجهم كمطوري برامج في شركات محلية. إن فكرة إنشاء مخيم لتدريب البرمجة في دولة مزقتها الحرب كاليمن أشبه ما تكون بحلم، لكن الآن أصبحت واقعا لا يمكن إنكاره. 
                     </p>
-                    <p>
-                      During this journey, Marcello came to e-meet and work with Maher Alaqil, a software developer from Sana’a that Mohamed had introduced to as the volunteer trainer for Re-coded bootcamp. In Sana’a, the small program finished and all four graduates — two women and two men — immediately found jobs as software developers at local companies. The idea of a coding Bootcamp in war-torn Yemen was undreamed of, but  now it is an undeniable reality.
-                    </p>
+                  
   
                     
                   
@@ -136,7 +134,7 @@
                   <div class="vision-line"></div>
                   <div class="row">
                     <div class="col-lg-6">
-                     <p>Our vision is help prepare one million coders to join the digital economy, which would flourish the local tech ecosystem, expand job opportunities beyond local economy and allowing Yemen to become a hub for a digital workforce in the region.</p>
+                     <p>رؤيتنا تتمحور حول المساعدة في إعداد مليون مبرمج للانضمام إلى الاقتصاد الرقمي، مما يترتب علية ذلك من إنعاش للقطاع التكنولوجي المحلي، ويزيد من فرص العمل خارج نطاق الاقتصاد المحلي مما من شأنه تمكين اليمن بأن تصبح مركزاً للقوى العاملة في المجال التقني في المنطقة.</p>
                     </div>
 
                     <div class="col-lg-6">
@@ -165,7 +163,7 @@
                         </div>
 
                         <div class="col-lg-6">
-                          <p>Our mission is to provide talented youth with world class education free of cost, and help them become software developers and tech leaders of tomorrow.</p>
+                          <p>مهمتنا هي تزويد الشباب الموهوبين بتعليم ذات مستوى عالمي مجانا، ومساعدتهم على أن يصبحوا مطوري برامج وقادة الغد في المجال التقني.</p>
                          </div>
                       </div>
                       
@@ -181,11 +179,11 @@
                       <div class="row">
                         <div class="col-lg-6">
                           <ol>
-                              <li>Fighting unemployment & lack of access to education by giving the Yemeni youth world class digital education to join the digital world.</li>
-                              <li>Dedicating at least 50% of what we do toward women, ensuring women participation in learning digital skills is strong.</li>
-                              <li>Creating the local tech ecosystem by providing top notch software developers to local IT companies and startups.</li>
-                              <li>Providing various workshops to about freelancing, entrepreneurship and the digital world in general.</li>
-                              <li>Working with local schools and universities to help inject coding lessons at early stages of education.</li>
+                              <li>مكافحة البطالة وتدني فرص الحصول على التعليم من خلال منح الشباب اليمني تعليماً رقميا ذات مستوى عالمي للانضمام إلى العالم الرقمي.</li>
+                              <li>تخصيص مالا يقل عن ٥۰ % مما نقوم به تجاه النساء، وضمان مشاركة فعالة للمرأة في تعلم المهارات الرقمية. </li>
+                              <li>إنشاء النظام الإيكولوجي للتكنولوجيا من خلال توفير مطوري برامج من الدرجة الأولى لشركات تكنولوجيا المعلومات المحلية والشركات الناشئة. </li>
+                              <li>تقديم ورش عمل مختلفة حول العمل الحر وريادة الأعمال والعالم الرقمي بشكل عام. </li>
+                              <li>العمل مع المدارس والجامعات المحلية للمساعدة في إدخال دروس البرمجة منذ مراحل التعليم الأولى.</li>
                           </ol>
                           </div>
 
@@ -253,7 +251,7 @@
                           <div class="contact-title">
                             <h2>تواصل معنا</h2>
                             <div class="contact-line"></div>
-                            <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
+                            <p>يرجى ملئ الاستمارة القصيرة أدناه <br>وسوف نتواصل معكم بأقصى سرعة  </p>
                           </div>
                          
                         </div>

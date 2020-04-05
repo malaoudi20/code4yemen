@@ -126,7 +126,7 @@
               <div class="feedback section">
                   <div class="bootstrap-wrapper">
                       <div class="container">
-                          <h2>What the Students said about Bootcamp</h2>
+                          <h2>ما قاله الطلاب عن مخيم التدريب</h2>
                           <div class="owl-carousel">
                             <div class="student">
                                 <div class="std-img">
@@ -134,8 +134,8 @@
                                 </div>
                               
                               <div class="std-details">
-                                  <h5>Ahmed Hassan</h5>
-                                  <p>“When I was accepted in Re-coded bootcamp, I expected it to be of great benefit. After taking the course, I realized that this bootcamp didn't only live up to my expectations but actually exceeded them. It provided me with an inspiring atmosphere that encouraged me to do my best. I intend to apply the knowledge I acquired to develop digital solutions that can make life better and easier.” </p>
+                                  <h5>أحمد حسان</h5>
+                                  <p>“عندما تم قبولي للانضمام إلى مخيم ريكوديد التدريبي، توقعت أن تكون تجربة ذات فائدة كبيرة لي. وبعد أن انهيت الدورة التعليمية، أدركت ان مخيم التدريب كان أروع بكثير مما توقعت. لقد وجدت نفسي في جو ملئ بالتحفيز والإلهام مما شجعني على بذل المزيد وتقديم أفضل ما لدي. أنوي تطبيق ما تعلمته لتطوير حلول رقمية تجعل الحياة أفضل وأسهل.” </p>
                               </div>
                             
                           </div>
@@ -145,8 +145,8 @@
                             <img src="images/eman.png" alt="" class="pic">
                         </div>
                             <div class="std-details">
-                                <h5>Eman</h5>
-                                <p>“Re-coded has given me HOPE! To give someone hope, especially to those who’ve lost faith in this world, is like giving them oxygen. Ever since I have graduated from collage, I have struggled a lot to get a job, especially during war. But this bootcamp has made a great impact on my life. It has inspired me and gave me important tech and leadership skills that has helped me through my career path (where I FINALLY GOT A JOB, YAY!). And I’ll be forever grateful for this opportunity and to the amazing Re-coded team.”</p>
+                                <h5>إيمان</h5>
+                                <p>“ريكوديد أعطتني الأمل الذي طالما بحثت عنة! أن تعطي أحداً الأمل، خاصة لأولئك الذين فقدوا الأمل في هذا العالم لهو بمثابة الهواء الذي لا غنى عنة للإنسان. لقد كافحت كثيراً للحصول على عمل منذ تخرجت من الجامعة، خاصة خلال الحرب. ولقد كان لمخيم التدريب تأثير كبير على حياتي. لقد ألهمني كثيرا وتعلمت من خلاله العديد من المهارات التقنية وفن القيادة والتي ساعدتني كثيرا في عملي (حيث حصلت أخيرا على وظيفة، مرحى!). أنني ممتنة للأبد لهذه الفرصة ولفريق ريكوديد المتميز.”</p>
                             </div>
                           </div>
 
@@ -156,8 +156,8 @@
                         </div>
                            
                             <div class="std-details">
-                                <h5>Ayman</h5>
-                                <p>“Re:Coded is a huge opportunity for Yemeni youth to seize. It creates great chances to get to a whole new level of creativity. They have opened for us the gate to the world and made us available to the international community of developers and they build your skills in a very amazing way. I really recommend starter and skilled developers to apply and to do the best they can to get accepted!”</p>
+                                <h5>ايمن</h5>
+                                <p>“تقدم ريكوديد من خلال مخيم التدريب فرصة كبيرة يتوجب على الشباب اليمني اغتنامها. حيث أنها توفر فرصة متميزة للإبداع وإظهار أفضل ما لديك. لقد قدموا لنا فرصة الدخول إلى مجتمع المطورين العالميين الذي ساعدونا في بناء مهاراتنا على أعلى مستوى من الإبداع والمهارة. أنصح المبتدئين والمطورين الموهوبين للتقدم لمخيم التدريب والقيام بأفضل ما يمكنهم ليحظوا بفرصة القبول في المخيم!”</p>
                             </div>
                           </div>
 
@@ -166,8 +166,8 @@
                             <img src="images/atheer.png" alt="" class="pic">
                         </div>
                             <div class="std-details">
-                                <h5>Atheer</h5>
-                                <p>“Re-coded is the place where success is. I've graduated from Computer Science college this year, during the four years I got just a little from that wonderful programming world. However, the opportunity to be learning at Re- Coded was  like the guide that leads me to a professional career that prepares me for the actual job market; learning at the bootcamp  not only teaches me a professional coding skills, but also teaches me a lot about soft skills, leading a team, working in a team, breaking down the problem to keep track into the right solutions and more. It is really amazing bootcamp. Re-Coded family I am thankful for giving me the opportunity to be part of this wonderful learning place, thank you Mr. Mohammed Alaoudi "The leader of the success boat", gratefully thank you Re-Coded trainers, and thank you Re-Coded team. “</p>
+                                <h5>أثير</h5>
+                                <p>“ريكوديد هو المكان المرادف للنجاح. هذا العام تخرجت من كلية علوم الحاسوب، وخلال السنين الأربعة التي قضيتها في الجامعة لم أرى إلا جانبا صغيراً من عالم البرمجة الرائع. لكن حين تسنت لي الفرصة للانضمام إلى مخيم التدريب أصبحت ريكوديد بمثابة المرشد لي الذي سيؤهلني مستقبلاً لسوق العمل ولأصبح محترفة في مجال البرمجة. ولم يقتصر دور المخيم على تعليم البرمجة فحسب وإنما امتد إلى إكساب الطلاب للعديد من المهارات الشخصية مثل: كيف تصبح قائداً للمجموعة، العمل الجماعي، إيجاد حلول مناسبة للمشاكل والكثير غيرة. لقد كانت تجربة فريدة بالفعل. عائلة ريكوديد إنني ممتنة للغاية لمنحي الفرصة لأكون جزء من منظومة التعليم المتميزة التي قدمتموها لنا، شكرا للأستاذ محمد العودي "قائد سفينة النجاح"، ممتنة لكم مدربي ريكوديد، وشكرا لفريق ريكوديد" “</p>
                             </div>
                           </div>
                            
@@ -176,10 +176,8 @@
                             <img src="images/mostafa.png" alt="" class="pic">
                         </div>
                             <div class="std-details">
-                                <h5>Mustafa Al-Shaheri </h5>
-                                <p>“Before war, I worked in many administrative positions with many companies and corporations.
-                                  However, once the war got ignited I lost everything and started working as a bus driver.
-                                  As a bus Driver, who has to feed his family, it was very hard to finish my studies in University and pursue a new career ,but once i heard about Re:Coded it was like life was giving back to a dead land. I was so optimistic and enthusiastic to enter into the digital world. So, I applied and went through many phases and got accepted. My life has changed since then. Recoded has given me a new vision of life. I didn't only learn coding but a lot of empowerment, leadership, and management skills. Thank you Recoded you have really given hope for the hopeless.”</p>
+                                <h5>مصطفى الشهيري</h5>
+                                <p>“" قبل الحرب، عملت في الكثير من المهن الإدارية في العديد من الشركات والمؤسسات. لكن حين اندلعت الحرب خسرت كل شيء واضطررت للعمل كسائق حافلة. وكسائق حافلة يتوجب علية إطعام أفراد عائلته، كان من الصعب جدا على إكمال دراستي الجامعية وإيجاد فرصة عمل جديدة، لكن حين سمعت عن ريكوديد كان الأمر بالنسبة لي بمثابة إعادة الحياة لأرض قاحلة. كنت متفائلا ومتحمسا للغاية للدخول إلى العالم الرقمي. لذا فقد قمت بالتقدم لمخيم التدريب ومررت بالعديد من المراحل حتى تم قبولي ومنذ ذلك الحين تغيرت حياتي بشكل جذري. لقد أعطتني ريكوديد نظرة جديدة للحياة. لم يقتصر دور مخيم التدريب على تعليم البرمجة فقط، وإنما امتد إلى إكساب الطلاب للعديد من المهارات مثل القيادة، التمكين، المهارات الإدارية. أتقدم بالشكر الجزيل لريكوديد لقد منحوا الأمل لمن لا أمل له.”</p>
                             </div>
                           </div>
                          

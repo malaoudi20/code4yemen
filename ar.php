@@ -83,9 +83,9 @@
                         <div class="overlay">
                             <div class="heading">
                                 <div class="container">
-                                    <h1>تدريب مليون مبرمج</h1>
+                                    <h1>تدريب المليون مبرمج القادمون</h1>
                                     <p>للانضمام إلى الاقتصاد الرقمي </p>
-                                    <a href="https://www.re-coded.com/" target="_blank">A Re:coded Initiative</a>
+                                    <a href="https://www.re-coded.com/" target="_blank">مبادرة من قِبل ريكوديد</a>
                                 </div>
                                 
                             </div> 
@@ -149,7 +149,7 @@
                <div class="about-desc ">
                 
                     <h2 class="is-animated">عنا</h2>
-                    <p class="is-animated">Code4Yemen Foundation is a non-profit organization, registered and licensed by the Ministry of Social Affairs and Labor, with the purpose to teach & train the youth with world class digital skills to become software developers and tech leaders.
+                    <p class="is-animated">كود فور يمن هي مؤسسة غير هادفة للربح، مسجلة ومرخصة من قبل وزارة الشؤون الاجتماعية والعمل، بهدف تعليم وتدريب الشباب على اكتساب المهارات الرقمية ذات المستوى العالمي ليصبحوا مطوري برمجيات وقادة في المجال التكنولوجي.
                     </p>
                     <!-- <a href="#"><span>Read More about us</span></a> -->
   
@@ -211,8 +211,8 @@
                         <img src="images/coding.png" alt="" >
                     </div>
                     <div class="services_intro">
-                      <h3 class="services_intro-title">Coding Bootcamps</h3>
-                      <p class="services_intro-text">We are starting with Front_End Web Development and Android Development. We are looking into expanding the coding languages we are going to offer in the near future. </p>
+                      <h3 class="services_intro-title">مخيمات البرمجة</h3>
+                      <p class="services_intro-text">سوف نبدأ البرنامج مع تطوير واجهة الويب وتطوير الأندرويد. نحن نتطلع إلى التوسع في تقديم لغات البرمجة التي سنقدمها في المستقبل القريب. </p>
                     </div>
                   </div>
 
@@ -222,8 +222,8 @@
                     </div>
                     
                     <div class="services_intro">
-                      <h3 class="services_intro-title">Technology Workshops</h3>
-                      <p class="services_intro-text">We offer wide range of workshops in the technology sector. Entrepreneurship, Product Management, coding for kids, and business management workshops.</p>
+                      <h3 class="services_intro-title">ورش العمل ذات الطابع التكنولوجي</h3>
+                      <p class="services_intro-text">نقدم مجموعة واسعة من ورش العمل في قطاع التكنولوجيا. تتضمن ورش العمل المجالات التالية: ريادة الأعمال وإدارة المنتجات والبرمجة لليافعين وإدارة الأعمال التجارية.</p>
                     </div>
                   </div>
 
@@ -232,8 +232,8 @@
                         <img src="images/soft.png" alt="" >
                     </div>
                     <div class="services_intro">
-                      <h3 class="services_intro-title">Soft skills</h3>
-                      <p class="services_intro-text">Time management, public speaking, teamwork, communication and problem solving skills are part our curriculum to ensure our graduates are fully set for success.</p>
+                      <h3 class="services_intro-title">المهارات الشخصية</h3>
+                      <p class="services_intro-text">مهارات إدارة الوقت، التحدث أمام الجمهور، العمل الجماعي بالإضافة إلى القدرة على التواصل وإيجاد حلول للمشاكل والتي هي جزء من المنهج المعتمد وذلك للتأكد من أن خريجنا يتمتعوا بأعلى قدر ممكن من المهارات التي تؤهلهم للنجاح.</p>
                     </div>
                   </div>
                    
@@ -258,7 +258,7 @@
 
             <div class="col-lg-5">
             <div class="programs-details is-animated">
-              <h4><a href="programs_ar.php">Front-End <br>Bootcamp</a> </h4>
+              <h4><a href="programs_ar.php">مخيم تطوير  <br>واجهة الويب</a> </h4>
               <div class="programs-number"><span>01</span></div>
               <div class="programs-img">
                 <img src="images/front-end-web-development.jpg">
@@ -286,7 +286,7 @@
               
               <div class="programs-img">
                 <img src="images/android.jpeg">
-                <h4><a href="programs_ar.php">Android <br>Bootcamp</a> </h4>
+                <h4><a href="programs_ar.php">مخيم تعليم  <br>الأندرويد</a> </h4>
               <div class="programs-number"><span>02</span></div>
                 <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
               </div>
