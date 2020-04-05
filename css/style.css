@@ -1938,7 +1938,7 @@ height: 100%;
     display: none !important;
 }
 .about h2 , .services h2, .programs h2,.news h2 ,.progress h2 ,.parteners h2,
-.story h2 ,.values h2, .team h2,.mission h2,.goals h2,.vision h2,.about-program-desc h2
+.story h2 ,.values h2, .team h2,.mission h2,.goals h2,.vision h2,.about-program-desc h2 ,.contact h2
 {
   font-size: 2.5em;
 }
@@ -2115,8 +2115,8 @@ footer .contact-info {
 .about ,.story{
   padding-bottom: 100px;
 }
-.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback{
-  padding: 100px 0;
+.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
+  padding: 120px 0;
 }
 .std-details{
   transform: translateY(0);
