@@ -310,14 +310,14 @@
               <div class="col-md-4">
              <div class="progress-details">
                <h3><span class="counter">1000</span>+</h3> 
-               <p>Applications</p>
+               <p>طلبات التقديم</p>
              </div>
             </div>
 
             <div class="col-md-4">
              <div class="progress-details">
               <h3><span class="counter">60</span>%</h3> 
-              <p>Female participation</p>
+              <p>من المشاركين إناث</p>
             </div>
             </div>
              
@@ -325,7 +325,7 @@
             <div class="col-md-4">
             <div class="progress-details">
               <h3><span class="counter">85</span>%</h3> 
-              <p>Get Job</p>
+              <p>حصلوا على وظيفة</p>
             </div>
           </div>
            </div>
@@ -526,7 +526,7 @@
                 <div class="contact-title is-animated">
                   <h2>تواصل معنا</h2>
                   <div class="contact-line"></div>
-                  <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
+                  <p>يرجى ملئ الاستمارة القصيرة أدناه<br>وسوف نتواصل معكم بأقصى سرعة </p>
                 </div>
                
               </div>
