@@ -386,7 +386,7 @@ $(document).ready(function() {
     dots:false,
     nav: true,
     autoplay: true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 20000,
     smartSpeed: 1000,
     animateOut: "slideOutLeft",
     animateIn: "slideInRight",

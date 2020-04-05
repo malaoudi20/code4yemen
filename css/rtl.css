@@ -1910,7 +1910,7 @@ opacity: .9;
   font-size: 35px;
   
   border:2px dotted #C86567;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 /* .program-header .logo{
   color:#fff;
