@@ -239,7 +239,7 @@
             <div class="col-md-4">
               <div class="contact-info">
                 <i class="fa fa-phone-alt"></i>
-                <p>967-415123</p>
+                <p>967-573062</p>
               </div>
            </div>
 
