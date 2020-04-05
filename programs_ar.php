@@ -90,8 +90,8 @@
                 <div class="col-lg-6">
                     <div class="about-program-desc ">
                     
-                      <h2>Front-end<br> Bootcamp</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium asperiores expedita consequuntur unde dolorum reiciendis quibusdam quos blanditiis quae, ad aperiam aspernatur fugit consectetur ullam porro a totam saepe harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident incidunt distinctio iure vero natus necessitatibus ut qui quo, eum, voluptates eveniet porro harum. Sapiente quod soluta beatae consectetur quaerat!
+                      <h2>مخيم تدريب <br> واجهة الويب</h2>
+                      <p> إن منهج ريكوديد المكثف يزود الطلاب بالتأهيل والدعم المطلوبان للدخول إلى سوق العمل بقوة كمطوري برمجيات.  نقدم للطلاب منهجاً عالمياً رفيع المستوى من مدرسة فلاترون العالمية وفرصة لتعلم لغات البرمجة التالية React , JavaScript ,CSS,HTML :. ومن خلال منهجنا الدراسي الحديث والصارم سيتمكن طلابنا من التفكير والعمل كمطوري برمجيات متمرسين. بحيث يصبح بإمكان خريجينا التعامل والتكيف مع إي بيئة في مجال تطوير البرمجيات.
                       </p>
                       <!-- <a href="#"><span>Read More about us</span></a> -->
     
@@ -126,7 +126,7 @@
               <div class="feedback section">
                   <div class="bootstrap-wrapper">
                       <div class="container">
-                          <h2>ما قاله الطلاب عن مخيم التدريب</h2>
+                          <h2>شهادات مقدمة من طلابنا</h2>
                           <div class="owl-carousel">
                             <div class="student">
                                 <div class="std-img">
@@ -194,7 +194,7 @@
               <div class="contact-title">
                 <h2>تواصل معنا</h2>
                 <div class="contact-line"></div>
-                <p>Please fill out the Quick form and<br>we will be in touch in lightning speed</p>
+                <p>يرجى ملئ الاستمارة وسوف<br>نتواصل معكم في أسرع وقت ممكن</p>
               </div>
              
             </div>
