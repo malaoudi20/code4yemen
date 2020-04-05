@@ -1942,7 +1942,7 @@ height: 100%;
 {
   font-size: 2.5em;
 }
-.progress h2 ,
+
 .about-program h2,
 .feedback h2
 {
@@ -1954,8 +1954,8 @@ height: 100%;
     padding-left: 35px;
 }
   header .logo span {
-    height: 100px;
-    width: 120px;
+    height: 120px;
+    width: 140px;
     padding: 15px;
 }
 .heading {
@@ -1982,6 +1982,16 @@ height: 100%;
  .order{
   order: 2;
 }
+.about .overlay {
+  position: absolute;
+  top:0;
+  bottom: -500px;
+  height: 100%;
+  width: 80%;
+  color: #fff;
+  background-image: url(../images/ttt.png);
+  background-position: bottom;
+}
 #about_img {
   height:100%; 
    width: 100%;
@@ -2000,8 +2010,23 @@ height: 100%;
   bottom: 35px;
   opacity: .9;
 }
-.about .animated-arrow > .main > .text {
+.about-title #about_img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 2000px;
+  background: rgb(197, 114, 114);
+  left: 170px;
+  bottom: -50px;
+  opacity: .9;
+}
+.about .animated-arrow > .main{
   margin-bottom: 30px;
+}
+.about .animated-arrow > .main > .text {
+ 
   font-size: 16px;
  
 }
@@ -2130,9 +2155,12 @@ footer .contact-info {
   #fp-nav.fp-right {
     display: none !important;
 }
+.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
+  padding: 150px 0;
+}
   header .logo span {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 140px;
    
 }
 .order{
@@ -2140,10 +2168,13 @@ footer .contact-info {
 }
 .heading {
   position: absolute;
-  top: 30%;
-  left: 5%;
+  top: 40%;
+  left: 15%;
 }
 .heading h1 {
+  font-size: 1.8em;
+}
+.heading p {
   font-size: 1.2em;
 }
 .news-items{
@@ -2156,6 +2187,155 @@ footer .contact-info {
 .contact .contact-title p {
   margin-bottom: 30px;
  }
+ .about-title #about_img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* z-index: -1; */
+  width: 300px;
+  height: 300px;
+  border-radius: 2000px;
+  border: 35px solid rgb(197, 114, 114);
+  left: 40px;
+  right:0;
+  bottom: 0;
+  top:0;
+  opacity: .9;
+}
+.about-title #about_img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 2000px;
+  background: rgb(197, 114, 114);
+  right: 10px;
+  
+  bottom: -50px;
+  opacity: .9;
+}
+
+.services-details {
+   flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+ }
+ .services .services-line {
+  width: 120px;
+ }
+ .progress .progress-details{
+  margin: 40px 0;
+}
+.programs .programs-line{
+  width: 120px;
+  margin-bottom: 50px;
+}
+.programs-details{
+  text-align: center;
+  margin: 50px 0;
+}
+.programs .programs-items .second-prog {
+  margin-top: 50px;
+}
+.news-items{
+  margin-bottom: 30px;
+  text-align: center;
+}
+ .parteners-details{
+   text-align: center;
+   margin-bottom: 30px;
+ }
+ .donate p {
+  font-size: 1.5em;
+ line-height: 2;
+}
+footer .contact-info {
+  margin-bottom: 20px;
+}
+.about-header .logo {
+   
+  /* padding-top: 5px; */
+  padding-left: 35px;
+}
+.about-header .logo span {
+  height: 100px;
+  width: 120px;
+ padding: 15px;
+}
+.about-header p {
+  font-size: 2em;
+}
+#story_img{
+  height:100%; 
+   width: 100%;
+ 
+}
+.story-title #story_img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* z-index: -1; */
+  width: 300px;
+  height: 300px;
+  border-radius: 2000px;
+  border: 35px solid rgb(197, 114, 114);
+  right: 40px;
+  bottom: 35px;
+  opacity: .9;
+}
+.values .values-details {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.program-header .logo {
+   
+  /* padding-top: 5px; */
+  padding-left: 35px;
+}
+.program-header .logo span {
+  height: 100px;
+  width: 120px;
+ 
+}
+.program-header p {
+  font-size: 2em;
+}
+.feedback .student {
+  flex-direction: column;
+}
+.feedback .student .std-img{
+  width:100%
+}
+.about-program-title #about-program_img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  /* z-index: -1; */
+  width: 300px;
+  height: 300px;
+  border-radius: 2000px;
+  border: 35px solid rgb(197, 114, 114);
+  left: 40px;
+  bottom: 35px;
+  opacity: .9;
+}
+.fp-enabled body, html.fp-enabled{
+  /* height: initial !important; */
+}
+.about ,.story{
+  padding-bottom: 100px;
+}
+.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
+  padding: 120px 0;
+}
+.std-details{
+  transform: translateY(0);
+  margin: 30px 0;
+}
+.contact .contact-title p {
+ margin-bottom: 30px;
+}
 }
 
 @media(min-width:768px)and (max-width:991px){
@@ -2185,11 +2365,11 @@ footer .contact-info {
     text-align: center;
     margin: 50px 0;
   }
-  .programs .programs-items .programs-details h4 {
+  /* .programs .programs-items .programs-details h4 {
    
     width: 48%;
     margin: 0 auto;
-}
+} */
 .programs-number span {
  
   text-align: center;
@@ -2205,8 +2385,8 @@ footer .contact-info {
    .programs .programs-items .second-prog {
     margin-top: 50px;
   }
-  .services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback{
-    padding: 100px 0;
+  .services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
+    padding: 120px 0;
   }
   .about .animated-arrow > .main > .text {
     margin-bottom: 30px;
@@ -2239,8 +2419,13 @@ footer .contact-info {
   }
 
   @media(min-width:992px)and (max-width:1199px){
-
+   
+    .about,.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
+      padding: 150px 0;
+    }
 
   }
 
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  
+ }
