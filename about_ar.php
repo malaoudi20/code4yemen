@@ -60,7 +60,7 @@
                         <li><a href="ar.php#Services">خدماتنا</a></li>
                         <li><a href="ar.php#Programs">برامجنا</a></li>
                         <li><a href="ar.php#Contact">تواصل معنا</a></li>
-                        <li><a href="ar.php">English</a></li>
+                        <li><a href="index.php">English</a></li>
            </ul>
           </div>
       </div>
@@ -295,7 +295,7 @@
             <div class="col-md-4">
               <div class="contact-info">
                 <i class="fa fa-phone-alt"></i>
-                <p>967-573 062</p>
+                <p>٥٧٣٠٦٢-٩٦٧</p>
               </div>
            </div>
 

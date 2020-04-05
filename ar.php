@@ -572,7 +572,7 @@
             <div class="col-md-4">
               <div class="contact-info">
                 <i class="fa fa-phone-alt"></i>
-                <p>967-573 062</p>
+                <p>٥٧٣٠٦٢-٩٦٧</p>
               </div>
            </div>
 
@@ -737,7 +737,7 @@ $(document).ready(function() {
 	//autoScrolling:true,
     navigationPosition: 'left',
   navigation:true,
-  navigationTooltips:["Home","About us","Services","Programs","Impact","Donate","Contact"],
+  navigationTooltips:["الرئيسية","عنا","خدماتنا","برامجنا","انجازاتنا","تبرع","تواصل معنا"],
   scrollingSpeed:1500,
   anchors:['home','about',"Services","Programs","Impact","Donate","Contact"],
   responsiveWidth: 1100,
