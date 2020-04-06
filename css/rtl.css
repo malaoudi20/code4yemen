@@ -2072,12 +2072,12 @@ footer .contact-info {
   padding-left: 35px;
 }
 .about-header .logo span {
-  height: 100px;
-  width: 120px;
+  height: 120px;
+  width: 140px;
  padding: 15px;
 }
 .about-header p {
-  font-size: 2em;
+  font-size: 1em;
 }
 #story_img{
   height:100%; 
@@ -2107,12 +2107,12 @@ footer .contact-info {
   padding-left: 35px;
 }
 .program-header .logo span {
-  height: 100px;
-  width: 120px;
+  height: 120px;
+  width: 140px;
  
 }
 .program-header p {
-  font-size: 2em;
+  font-size: 1em;
 }
 .feedback .student {
   flex-direction: column;
@@ -2145,6 +2145,14 @@ footer .contact-info {
 .std-details{
   transform: translateY(0);
   margin: 30px 0;
+}
+.more .std-details {
+  transform: translateY(0);
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
 }
 .contact .contact-title p {
  margin-bottom: 30px;
@@ -2332,6 +2340,14 @@ footer .contact-info {
   transform: translateY(0);
   margin: 30px 0;
 }
+.more .std-details {
+  transform: translateY(0);
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
 .contact .contact-title p {
  margin-bottom: 30px;
 }
@@ -2407,6 +2423,14 @@ footer .contact-info {
   transform: translateY(0);
   margin: 30px 0;
 }
+.more .std-details {
+  transform: translateY(0);
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
 .contact .contact-title p {
   margin-bottom: 30px;
  }
@@ -2422,6 +2446,14 @@ footer .contact-info {
     .about,.services ,.programs ,.progress, .news ,.parteners ,.donate ,.vision,.mission,.goals,.about-program ,.feedback,.contact{
       padding: 150px 0;
     }
+    .std-details {
+     
+      transform: translateY(40%);
+     
+  }
+  .more .std-details {
+    transform: translateY(10%);
+}
 
   }
 

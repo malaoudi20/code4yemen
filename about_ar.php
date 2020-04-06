@@ -75,7 +75,7 @@
                 <div class="overlay"></div>
                     <div class="heading">
                         <div class="container">
-                          <h1>تدريب مليون مبرمج</h1>
+                        <h1>تدريب المليون مبرمج القادمون</h1>
                           <p>للانضمام إلى الاقتصاد الرقمي</p>
                         </div>
                         
