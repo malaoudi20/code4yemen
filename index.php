@@ -475,19 +475,7 @@
     </div> -->
 
       
-    <!-- start donation section -->
-      <div class="donate section fp-auto-height-responsive">
-        <div class="bootstrap-wrapper">
-          <div class="container">
-            <p>Support Yemeni youth to become the technology leaders of tomorrow</p>
-            <!-- <a href="#" class="main-btn">Donate</a> -->
-            <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js"></script><a class="dbox-donation-button" style="background: #C86567 url(https://d1iczxrky3cnb2.cloudfront.net/red_logo.png) no-repeat 37px;color: #fff;text-decoration: none;font-family: Verdana,sans-serif;display: inline-block;font-size: 16px;padding: 15px 38px;padding-left: 75px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;box-shadow: 0 1px 0 0 #1f5a89;text-shadow: 0 1px rgba(0, 0, 0, 0.3);" href="https://donorbox.org/donate-1-5?default_interval=o">Donate</a>
-          </div>
-        </div>
-       
-        
-      </div>
-      <!-- end dontaion section -->
+   
     
 
 
@@ -715,9 +703,9 @@ $(document).ready(function() {
 	//options here
 	//autoScrolling:true,
   navigation:true,
-  navigationTooltips:["Home","About us","Services","Programs","Impact","Donate","Contact"],
+  navigationTooltips:["Home","About us","Services","Programs","Impact","Contact"],
   scrollingSpeed:1500,
-  anchors:['home','about',"Services","Programs","Impact","Donate","Contact"],
+  anchors:['home','about',"Services","Programs","Impact","Contact"],
   responsiveWidth: 1100,
 	//responsiveHeight: 400,
   //verticalCentered:false,
@@ -772,19 +760,19 @@ onLeave: function(origin, destination, direction){
 
 		// }
 
-    else if(origin.index == 4){
+    // else if(origin.index == 4){
       
-        $isAnimatedSeventh.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
-        $isAnimatedSeventh.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
-        $isAnimatedSeventh.eq(2).addClass('animated fadeInUp').css({'animation-delay': '2s','animation-duration':'2s'});
-        $isAnimatedSeventh.eq(3).addClass('animated fadeInUp').css({'animation-delay':'2.5s','animation-duration':'2s'});
+    //     $isAnimatedSeventh.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
+    //     $isAnimatedSeventh.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
+    //     $isAnimatedSeventh.eq(2).addClass('animated fadeInUp').css({'animation-delay': '2s','animation-duration':'2s'});
+    //     $isAnimatedSeventh.eq(3).addClass('animated fadeInUp').css({'animation-delay':'2.5s','animation-duration':'2s'});
       
      
 
 
-		}
+		// }
 
-    else if(origin.index == 5){
+    else if(origin.index == 4){
       
       $isAnimatedEighth.eq(0).addClass('animated fadeInUp').css({'animation-delay': '1s','animation-duration':'2s'}); 
       $isAnimatedEighth.eq(1).addClass('animated fadeInUp').css({'animation-delay': '1.5s','animation-duration':'2s'});
