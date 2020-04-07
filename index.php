@@ -38,13 +38,6 @@
                             <span><img src="images/code4yemen.png"></span>
                           </a>
                         
-                 
-                   
-                    <!-- <div class="menu">
-                         <a href="#" id="arrow"><span>
-                           &#9658;&#9658;
-                          </span></a>
-                    </div> -->
                
                <div class="col-md-3">
                 <div class="toggle-btn">
@@ -77,7 +70,7 @@
 
             
             
-            <!-- <video class="myVideo" playsinline="" autoplay="autoplay" muted="muted" loop="loop"><source src="images/Code4Yemen_part_one.mp4" type="video/mp4"></video> -->
+            
                 <div class="video-wrapper">
                     
                         <div class="overlay">
@@ -115,29 +108,18 @@
          
             </div>
            
-      
+      <!-- start about section -->
           <div class="about section fp-auto-height-responsive  " >
             <div class="overlay"></div>
-            <!-- <span></span> -->
+            
             <div class="bootstrap-wrapper">
             <div class="container">
               <div class="about-details ">
                 <div class="row">
                 <div class="col-lg-6 col-sm-12 order">
                 <div class="about-title  is-animated">
-                    <!-- <img src="images/cmd.gif"> -->
-
+                    
                     <div id="about_img">
-                      <!-- <img src="images/bootcamp.PNG"/> -->
-                      <!-- <svg class="svg-shape" viewBox="0 0 300 322">
-                        <defs>
-                        <linearGradient id="gradient-3" gradientTransform="rotate(90)">
-                        <stop offset="5%" stop-color="rgba(233,244,255,0)"></stop>
-                        <stop offset="95%" stop-color="rgba(233,244,255,1)"></stop>
-                        </linearGradient>
-                        </defs>
-                        <path fill="#0a062f2e" d="M300,196.58v-71.16c0-31.57-16.84-60.75-44.19-76.53l-61.63-35.58c-27.34-15.79-61.03-15.79-88.37,0 L44.19,48.89C16.84,64.67,0,93.85,0,125.42v71.16c0,31.57,16.84,60.75,44.19,76.53l61.63,35.58c27.34,15.79,61.03,15.79,88.37,0 l61.63-35.58C283.16,257.33,300,228.15,300,196.58z"></path>
-                        </svg> -->
                       <img src="images/bootcamp1.jpeg"/>
                     </div>
                    
@@ -151,7 +133,7 @@
                     <h2 class="is-animated"><span>About</span> US</h2>
                     <p class="is-animated">Code4Yemen Foundation is a non-profit organization, registered and licensed by the Ministry of Social Affairs and Labor, with the purpose to teach & train the youth with world class digital skills to become software developers and tech leaders.
                     </p>
-                    <!-- <a href="#"><span>Read More about us</span></a> -->
+                    
   
                     <ul class="is-animated">
                         <li>
@@ -177,9 +159,6 @@
             </div>
             </div>
             </div>
-                <!-- <div class="References">
-                    <div class="References__triangle"><span></span></div>
-                </div> -->
                
 
                 
@@ -187,8 +166,9 @@
          
               </div>
       </div>
+      <!-- end about section -->
 
-
+      <!-- start services section -->
       <div class="services section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
@@ -247,6 +227,10 @@
 
         </div>
       </div>
+      <!-- end services section -->
+
+
+      <!-- start programs section -->
 
       <div class="programs section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
@@ -257,14 +241,16 @@
             <div class="row">
 
             <div class="col-lg-5">
+            <a href="programs.php">
             <div class="programs-details is-animated">
-              <h4><a href="programs.php">Front-End <br>Bootcamp</a> </h4>
+              <h4>Front-End <br>Bootcamp </h4>
               <div class="programs-number"><span>01</span></div>
               <div class="programs-img">
                 <img src="images/front-end-web-development.jpg">
-                <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
+               
               </div>
             </div>
+            </a>
             </div>
              
 
@@ -286,9 +272,8 @@
               
               <div class="programs-img">
                 <img src="images/android.jpeg">
-                <h4><a href="programs.php">Android <br>Bootcamp</a> </h4>
+                <h4>Android <br>Bootcamp <span> “Coming soon”</span> </h4>
               <div class="programs-number"><span>02</span></div>
-                <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
               </div>
               
             </div>
@@ -298,6 +283,10 @@
       </div>
     </div>
   </div>
+  <!-- end program section -->
+
+
+  <!-- start imapact section -->
 
       <div class="progress section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
@@ -333,6 +322,8 @@
         </div>
       </div>
       </div>
+
+      <!-- end impact section -->
 
 
       <!-- <div class="news section fp-auto-height-responsive">
@@ -483,7 +474,8 @@
       </div>
     </div> -->
 
-
+      
+    <!-- start donation section -->
       <div class="donate section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
@@ -495,29 +487,11 @@
        
         
       </div>
-     <?php 
-     
-    //  $m="";
-    //  if ($_SERVER["REQUEST_METHOD"] == "POST"){
-    //    $to      = 'info@code4yemen.org';
-    //    $from    = filter_var($_POST["sender"], FILTER_SANITIZE_STRING);
-    //    $subject = filter_var( $_POST["subject"], FILTER_SANITIZE_STRING);
-    //    $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
-    //    $headers = 'From:'.$from . "\r\n" .
-    //        'X-Mailer: PHP/' . phpversion();
-       
-    //    mail($to, $subject, $message, $headers);
-      
-      
-       //$reloadpage = $_SERVER['PHP_SELF']."#Contact";
-        // header("http://localhost/code4yemen/index.php#Contact");
-        // exit();
-      //   wp_redirect($_SERVER['HTTP_REFERER']);
-      //  $m = "<p style='color:#fff'>Thank you for sending us an email</p>";
-       //echo "<script type='text/javascript'> document.location = 'http://localhost/code4yemen/index.php#Contact'; </script>";
-      //}
-      
-     ?>
+      <!-- end dontaion section -->
+    
+
+
+      <!-- start contact section -->
       <div class="contact section fp-auto-height-responsive">
         <div class="bootstrap-wrapper">
           <div class="container">
@@ -553,10 +527,12 @@
         
         </div>
       </div>
-      <?php
-      
-      ?> 
+     
       </div>
+      <!-- end contact section -->
+      
+
+      <!-- start footer section -->
         <div class=" footer section fp-auto-height">
       <footer>
         
@@ -600,7 +576,9 @@
       </div>
         <img src="images/wave.svg"/>
       </footer>
+      
     </div>
+    <!-- end footer section -->
   </div>
 
   <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->

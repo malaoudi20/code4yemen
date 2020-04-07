@@ -988,9 +988,14 @@ header .overlay{
   border-top: 8px solid #C86567;
   
 }
-.programs .programs-items .programs-details h4 a{
+.programs .programs-items   a{
  
   color:#fff;
+ 
+ }
+ .programs .programs-items .programs-details h4 span{
+ 
+  font-size: 0.65em;
  
  }
 .programs-number span{

@@ -257,14 +257,16 @@
             <div class="row">
 
             <div class="col-lg-5">
+            <a href="programs_ar.php">
             <div class="programs-details is-animated">
-              <h4><a href="programs_ar.php">مخيم تطوير  <br>واجهة الويب</a> </h4>
+              <h4>مخيم تطوير  <br>واجهة الويب </h4>
               <div class="programs-number"><span>01</span></div>
               <div class="programs-img">
                 <img src="images/front-end-web-development.jpg">
                 <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
               </div>
             </div>
+            </a>
             </div>
              
 
@@ -286,7 +288,7 @@
               
               <div class="programs-img">
                 <img src="images/android.jpeg">
-                <h4><a href="programs_ar.php">مخيم تعليم  <br>الأندرويد</a> </h4>
+                <h4>مخيم تعليم  <br>الأندرويد <span> “قريباً”</span> </h4>
               <div class="programs-number"><span>02</span></div>
                 <!-- <img src="https://via.placeholder.com/340x400/000000/FFFFFF/?text=Bootcamp.net"> -->
               </div>
