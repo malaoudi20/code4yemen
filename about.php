@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Training The Next Generation Of Coders">
     <title>Code4Yemen</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
@@ -74,7 +75,7 @@
                 <div class="overlay"></div>
                     <div class="heading">
                         <div class="container">
-                          <h1>Training The Next<br> Million Coders</h1>
+                          <h1>Training The Next<br> Generation Of Coders</h1>
                           <p>To Join the digital economy </p>
                         </div>
                         

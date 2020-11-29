@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="تدريب مليون مبرمج">
+    <meta name="description" content="تدريب الجيل القادم من المبرمجين">
     <title>Code4Yemen</title>
     
     <link rel="stylesheet" href="css/all.css">
@@ -72,7 +72,7 @@
                 <div class="overlay">
                     <div class="heading">
                         <div class="container">
-                        <h1>تدريب المليون مبرمج القادمون</h1>
+                        <h1>تدريب الجيل القادم من المبرمجين</h1>
                           <p>للانضمام إلى الاقتصاد الرقمي</p>
                         </div>
                       </div>
